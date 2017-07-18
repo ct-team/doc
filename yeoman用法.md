@@ -1,6 +1,6 @@
 # yeoman用法
 
-## 安装
+## 安装Yeoman
 
 安装 Yeoman 的命令行工具   
 
@@ -8,7 +8,15 @@
 npm install -g yo
 ```
 
-## 自定义模板
+## 使用Yeoman
+
+选择Yeoman模板 初始化项目   
+
+```javascript
+yo you-name
+```
+
+## 自定义模板方法
 
 yo和专用于开发 Yeoman 生成器的工具 generator-generator
 
