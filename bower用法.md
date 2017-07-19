@@ -6,13 +6,19 @@
 npm install -g bower
 ```
 
-## 加载
+## 注册模块
+
+```javascript
+bower register git:github.com/ct-team/store.js.git //模块git地址 
+```
+
+## 加载模块
 
 ```javascript
 bower install jquery
 ```
 
-## 卸载
+## 卸载模块
 
 ```javascript
 bower uninstall jquery
