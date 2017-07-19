@@ -5,7 +5,7 @@
 安装 Yeoman 的命令行工具   
 
 ```javascript
-npm install -g yo
+  npm install -g yo
 ```
 
 ## 使用Yeoman
@@ -13,7 +13,8 @@ npm install -g yo
 选择Yeoman模板 初始化项目   
 
 ```javascript
-yo you-name
+  npm install -g generator-you-name //首次
+  yo you-name
 ```
 
 ## 自定义模板方法
@@ -33,7 +34,7 @@ yo和专用于开发 Yeoman 生成器的工具 generator-generator
 ### 配置内容
 
 ```javascript
-  'use strict';
+'use strict';
 var yeoman = require('yeoman-generator');
 var chalk = require('chalk');
 var yosay = require('yosay');
